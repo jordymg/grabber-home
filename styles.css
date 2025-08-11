@@ -85,12 +85,31 @@ body {
     margin: 0 auto;
 }
 
-.hero-description {
+.important-notice {
+    background: rgba(255, 193, 7, 0.15);
+    border: 2px solid rgba(255, 193, 7, 0.4);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.notice-text {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.notice-description {
     font-size: 1rem;
     line-height: 1.6;
-    margin: 0 auto 20px;
+    color: #ffffff;
     opacity: 0.95;
-    text-align: justify;
+}
+
+.notice-text strong, .notice-description strong {
+    color: #ffd700;
+    font-weight: 600;
 }
 
 .features {
